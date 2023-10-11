@@ -3,8 +3,8 @@
 # =============================
 # Add your BrowserStack userName and acccessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName: YOUR_USERNAME
-accessKey: YOUR_ACCESS_KEY
+userName: lucasthomdasilva_fHVnzu
+accessKey: Eexj2xCfJyDsXVSE5j89
 
 # ======================
 # BrowserStack Reporting
@@ -40,6 +40,10 @@ platforms:
   - deviceName: Samsung Galaxy S22 Ultra
     browserName: chrome # Try 'samsung' for Samsung browser
     osVersion: 12.0
+  - deviceName: iPhone 11
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: portrait
 
 # =======================
 # Parallels per Platform
