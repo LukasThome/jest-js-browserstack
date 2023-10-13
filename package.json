@@ -14,11 +14,12 @@
   ],
   "devDependencies": {
     "@types/jest": "^27.4.0",
-    "browserstack-node-sdk": "latest",
+    "browserstack-node-sdk": "^1.2.9",
     "jest": "^27.4.7"
   },
   "dependencies": {
     "browserstack-local": "^1.4.8",
+    "date-fns": "^2.30.0",
     "dotenv": "^16.0.0",
     "selenium-webdriver": "4.1.2"
   },

@@ -29,21 +29,100 @@ source: jest-js:sample-main:v1.0
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
-  - os: OS X
-    osVersion: Big Sur
-    browserName: Chrome
-    browserVersion: latest
-  - os: Windows
-    osVersion: 10
-    browserName: Edge
-    browserVersion: latest
-  - deviceName: Samsung Galaxy S22 Ultra
-    browserName: chrome # Try 'samsung' for Samsung browser
-    osVersion: 12.0
+
   - deviceName: iPhone 11
     osVersion: 15
     browserName: safari
     deviceOrientation: portrait
+  - deviceName: iPhone 11
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: landscape
+
+  - deviceName: iPhone SE 2020
+    osVersion: 16
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone SE 2020
+    osVersion: 16
+    browserName: safari
+    deviceOrientation: landscape
+
+  - deviceName: iPhone 8
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone 8
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: landscape
+
+  - deviceName: iPhone 8 Plus
+    osVersion: 12
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone 8 Plus
+    osVersion: 12
+    browserName: safari
+    deviceOrientation: landscape
+
+  - deviceName: iPhone XR
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone XR
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: landscape
+
+  - deviceName: iPhone 15 Pro Max
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone 15 Pro Max
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: landscape
+
+  - deviceName: iPhone 15 Pro
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone 15 Pro
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: landscape
+
+  - deviceName: iPhone 15
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone 15
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: landscape    
+
+  - deviceName: iPhone 12
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone 12
+    osVersion: 17
+    browserName: safari
+    deviceOrientation: landscape    
+
+  - deviceName: iPhone XS
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: iPhone XS
+    osVersion: 15
+    browserName: safari
+    deviceOrientation: landscape
+    
+
+
+
 
 # =======================
 # Parallels per Platform
@@ -54,7 +133,7 @@ platforms:
 # Example 1 - If you have configured 3 platforms and set `parallelsPerPlatform` as 2, a total of 6 (2 * 3) parallel threads will be used on BrowserStack
 #
 # Example 2 - If you have configured 1 platform and set `parallelsPerPlatform` as 5, a total of 5 (1 * 5) parallel threads will be used on BrowserStack
-parallelsPerPlatform: 1
+parallelsPerPlatform: 5
 
 # ==========================================
 # BrowserStack Local
